@@ -13,7 +13,7 @@ getRandomInt(7,50);
 
 const getMaxiLength = (testString, maximumString) => {
   if (testString.length <= maximumString) {
-      return true;
+    return true;
   }
   return false;
 };
