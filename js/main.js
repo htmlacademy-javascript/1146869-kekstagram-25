@@ -10,12 +10,7 @@ const getRandomInt = (min, max) => {
 
 getRandomInt(7,50);
 
+const messageLine = 'Строка комментария';
+const getMaxiLength = (testString, maximumString) => testString.length <= maximumString;
 
-const getMaxiLength = (testString, maximumString) => {
-  if (testString.length <= maximumString) {
-    return true;
-  }
-  return false;
-};
-
-getMaxiLength(100);
+getMaxiLength(messageLine, 100);
