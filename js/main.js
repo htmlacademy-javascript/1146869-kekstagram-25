@@ -1,21 +1,20 @@
-const getRandomInt = (min, max) => {
-  if (min < 0 || max < 0) {
-    return -1;
-  }
-  if (min > max) {
-    [min, max] = [max, min]; // Деструктуризация значений
-  }
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-};
+// eslint-disable-next-line no-unused-vars
+const NAME_USERS = [
+  'Арнольд',
+  'Сильвестр',
+  'Чак',
+  'Джейсон',
+  'Вандам',
+  'Лунгрен',
+  'Ли',
+];
 
-getRandomInt(7,50);
-
-
-const getMaxiLength = (testString, maximumString) => {
-  if (testString.length <= maximumString) {
-    return true;
-  }
-  return false;
-};
-
-getMaxiLength(100);
+// eslint-disable-next-line no-unused-vars
+const COMMENT_USERS = [
+  'Всё отлично!',
+  'В целом всё неплохо. Но не всё.',
+  'Когда вы делаете фотографию, хорошо бы убирать палец из кадра. В конце концов это просто непрофессионально.',
+  'Моя бабушка случайно чихнула с фотоаппаратом в руках и у неё получилась фотография лучше.',
+  'Я поскользнулся на банановой кожуре и уронил фотоаппарат на кота и у меня получилась фотография лучше.',
+  'Лица у людей на фотке перекошены, как будто их избивают. Как можно было поймать такой неудачный момент?!',
+];
