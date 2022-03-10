@@ -80,3 +80,4 @@ const getDescriptionPhoto = (id) => ({
 const mainDescriptionPhoto = Array.from({length: DESCRIPTION_PHOTO},
   (_, index) => getDescriptionPhoto(++index));
 mainDescriptionPhoto();
+
