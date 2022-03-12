@@ -18,7 +18,7 @@ const COMMENT_USERS = ([
 ]);
 
 
-const DESCRIPTION_PHOTO = (25);
+const DESCRIPTION_PHOTO = 25;
 
 const stringLength = (string, maxlength) => string.length <= maxlength;
 stringLength('комментарий', 140);
