@@ -41,6 +41,7 @@ const getRandomNumber = ((min, max) => {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 });
 
+<<<<<<< HEAD
 const getUniqNumber = (maxMove) => {
   let currentNumber = 0;
   if (maxMove === 1) {
@@ -70,3 +71,11 @@ const mainDescriptionPhoto = Array.from({length: DESCRIPTION_PHOTO},
   (_, index) => getDescriptionPhoto(++index));
 mainDescriptionPhoto();
 
+=======
+getRandomInt(7,50);
+
+const messageLine = 'Строка комментария';
+const getMaxiLength = (testString, maximumString) => testString.length <= maximumString;
+
+getMaxiLength(messageLine, 100);
+>>>>>>> 87adf34c39a7b7372f5bf935f2658a685feb3312
